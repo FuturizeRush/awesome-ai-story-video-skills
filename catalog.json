@@ -1,0 +1,21 @@
+{
+  "snapshot_date": "2026-08-02",
+  "default_star_gate": 1000,
+  "selected": [
+    {"repo":"Forget-C/Jellyfish","stars":5818,"license":"Apache-2.0","commit":"a9678194ddf2d9be3ccbe78d4287d87d5089e123","kind":"application"},
+    {"repo":"heygen-com/hyperframes","stars":39120,"license":"Apache-2.0","commit":"74fadf69c464c0e0658bd7a6b740986fc3aceba8","kind":"framework-and-skills"},
+    {"repo":"juliangarnier/anime","stars":71689,"license":"MIT","commit":"2c9cf8ea00329f6768c7d7902252ed977d75ce42","kind":"library"},
+    {"repo":"mrdoob/three.js","stars":114170,"license":"MIT","commit":"b84ded15b430e73a26071ed7a20d020a41210023","kind":"library"},
+    {"repo":"img2threejs/img2threejs","stars":9006,"license":"Apache-2.0","commit":"acd252c182ee3c48154f5f112d731a62aea2dea6","kind":"skill"},
+    {"repo":"Narcooo/inkos","stars":8613,"license":"AGPL-3.0-only","commit":"0da8637099369f59c12377267ec2e5bdc8c4985f","kind":"application-and-skill","disclosure":"README sponsorship banner; provider-neutral integration only"},
+    {"repo":"sugarforever/boring-video-studio","stars":58,"license":"MIT","commit":"1b291af26300d36923a692e9bef554c59396da52","kind":"skill","exception":"explicitly approved below star gate"}
+  ],
+  "applications": [
+    {"repo":"xiamuceer-j/MuMuAINovel","stars":2806,"license":"GPL-3.0","commit":"e3f3d7d22b631a368da46811e831ba563cf10295","hardening_required":true},
+    {"repo":"ExplosiveCoderflome/AI-Novel-Writing-Assistant","stars":2211,"license":"AGPL-3.0-only","commit":"a5be1100d4b6fce4f0299020e774c318e6ceb997","licensing_review":"commercial service notice"}
+  ],
+  "not_selected": [
+    {"repo":"BlinkDL/AI-Writer","stars":3824,"commit":"d7e23c7ffb42fdde3fd14c88abb4d865544d88a4","reason":"upstream marks workflow obsolete; unsafe checkpoint deserialization boundary"},
+    {"repo":"PenglongHuang/chinese-novelist-skill","stars":2541,"commit":"6c507e0221ccf1a37e9652a8b9bbf0753c3a8bcf","reason":"no detected license and paid API promotion"}
+  ]
+}
