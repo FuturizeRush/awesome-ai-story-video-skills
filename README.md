@@ -1,50 +1,36 @@
-# Awesome AI Story & Learning Video Skills
+# Awesome AI Story & Learning Video Tools
 
-A bilingual, security-aware collection for turning ideas, fiction, and teaching material into motion comics or explainer videos. The list separates agent Skills, libraries, and full applications so a GitHub repository is never presented as a plug-and-play Skill when it is not one.
+A curated list of open-source tools and agent skills for storytelling, motion comics, and learning videos.
 
-> Metadata snapshot: 2026-08-02. Stars are popularity signals, not security guarantees.
+## Video Production
 
-## Selection policy
+- [HyperFrames](https://github.com/heygen-com/hyperframes) — Create and render videos with HTML, CSS, and JavaScript.
+- [Jellyfish](https://github.com/Forget-C/Jellyfish) — Plan stories, characters, scenes, shots, and media assets in one production workspace.
 
-- Default popularity gate: at least 1,000 GitHub stars.
-- A recognizable open-source license is required for recommendations.
-- Sponsorship, paid API promotion, and commercial restrictions must be disclosed. Integrations must remain provider-neutral.
-- Review install hooks, process execution, network access, default credentials, service bindings, secret storage, model deserialization, and auto-update paths.
-- Pin an exact commit or package version and keep provenance for generated assets.
-- Installation requests and audit candidates are not automatically awesome-list recommendations.
+## Animation & 3D
 
-## Core stack
+- [Anime.js](https://github.com/juliangarnier/anime) — Animate JavaScript, CSS, SVG, and DOM properties.
+- [img2threejs](https://github.com/img2threejs/img2threejs) — Rebuild reference images as procedural Three.js models with an agent-guided workflow.
+- [Three.js](https://github.com/mrdoob/three.js) — Build and render interactive 3D graphics in the browser.
 
-| Project | Kind | Stars | License | Why it belongs |
-|---|---|---:|---|---|
-| [Jellyfish](https://github.com/Forget-C/Jellyfish) | Project/asset workflow app | 5,818 | Apache-2.0 | Story, character, scene, shot, asset, and generation-task tracking. Do not confuse project progress with native video completion. |
-| [HyperFrames](https://github.com/heygen-com/hyperframes) | Video framework + Skills | 39,120 | Apache-2.0 | Deterministic HTML animation, preview, strict checks, and rendering. |
-| [Anime.js](https://github.com/juliangarnier/anime) | Animation library | 71,689 | MIT | Timeline-friendly DOM, SVG, and JavaScript animation. |
-| [Three.js](https://github.com/mrdoob/three.js) | 3D library | 114,170 | MIT | Procedural scenes, diagrams, props, cameras, and real-time 3D. |
-| [img2threejs](https://github.com/img2threejs/img2threejs) | Agent Skill | 9,006 | Apache-2.0 | Quality-gated reference-image to procedural Three.js reconstruction. |
+## Inclusion Criteria
 
-## Recommended pipeline
+- Open-source license
+- At least 1,000 GitHub stars
+- Active maintenance
+- Direct use in story or learning-video production
+- No paid placement
 
-```text
-idea / lesson / manuscript
-        ↓
-provider-neutral bilingual writing contract
-        ↓
-story bible → script → storyboard → asset manifest
-        ↓
-img2threejs + Three.js + Anime.js
-        ↓
-Jellyfish project / shot / asset registration
-        ↓
-HyperFrames strict check → human preview approval → render
-        ↓
-ffprobe + full decode + digest + Jellyfish readback
-```
+## Disclaimer
+
+This repository is an informational index. Inclusion is not an endorsement, security assessment, or guarantee of quality, maintenance, compatibility, or fitness for a particular use. Many listed projects have not been installed, run, or independently reviewed for security by the maintainers of this list.
+
+Before using a project, review its source code, license, dependencies, install scripts, network behavior, data handling, permissions, and release history. Pin versions and test in an isolated environment. You are responsible for evaluating and operating each tool safely.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Security claims need evidence; “many stars” or “tests pass” is not enough.
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-MIT. Upstream projects retain their own licenses and trademarks.
+[MIT](LICENSE). Each listed project retains its own license and trademarks.
