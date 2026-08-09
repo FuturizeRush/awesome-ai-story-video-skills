@@ -8,6 +8,19 @@ A curated list of open-source tools and agent skills for storytelling, motion co
 - [Jellyfish](https://github.com/Forget-C/Jellyfish) — Plan stories, characters, scenes, shots, and media assets in one production workspace.
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — Create AI-assisted faceless short videos from a topic or script, with narration, captions, music, and stock-media workflows.
 
+## Agentic Video & UGC Workflows
+
+- [ViMax](https://github.com/HKUDS/ViMax) — Orchestrate an idea, screenplay, or novel into a multi-scene video with storyboards, continuity tracking, and reference-image cameos. Requires configured LLM, image, and video providers.
+- [Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) — Agent-ready UGC and product-video workflow recipes. Runs through the external MuAPI CLI and its model providers, rather than as a local video model.
+- [OpenShorts](https://github.com/mutonby/openshorts) — Assemble AI-actor UGC videos from a product website, script, actor, voice, generated clips, B-roll, captions, and social-ready exports. The core app is MIT; its `cloud/` directory has a separate commercial license, and the workflow needs third-party APIs.
+
+## Digital Humans & UGC Building Blocks
+
+- [LiveTalking](https://github.com/lipku/LiveTalking) — Self-host a digital-human workflow with custom avatars, TTS, lip sync, and APIs for batch-script video recording.
+- [OpenTalking](https://github.com/datascale-ai/opentalking) — Compose interactive digital humans from local or remote avatar, speech, and LLM backends.
+- [EchoMimicV2](https://github.com/antgroup/echomimic_v2) — Generate audio-driven semi-body human animation for an avatar shot within a larger UGC workflow.
+- [LatentSync](https://github.com/bytedance/LatentSync) — Synchronize supplied speech audio with an existing face video as a finishing step.
+
 ## Design & Marketing for Creative Production
 
 - [Open Design](https://github.com/nexu-io/open-design) — Local-first agent design environment with product-image, presentation, and media workflows; its ecommerce workflow creates reference-faithful main, feature, and lifestyle image sets.
@@ -26,7 +39,7 @@ A curated list of open-source tools and agent skills for storytelling, motion co
 
 ## Inclusion Criteria
 
-- Open-source license
+- An open-source core license; material source-available components must be disclosed in the entry
 - At least 1,000 GitHub stars
 - Active maintenance
 - Direct use in story or learning-video production, or in the design and marketing workflows that produce those assets
@@ -37,6 +50,8 @@ A curated list of open-source tools and agent skills for storytelling, motion co
 This repository is an informational index. Inclusion is not an endorsement, security assessment, or guarantee of quality, maintenance, compatibility, or fitness for a particular use. Many listed projects have not been installed, run, or independently reviewed for security by the maintainers of this list.
 
 Before using a project, review its source code, license, dependencies, install scripts, network behavior, data handling, permissions, and release history. Pin versions and test in an isolated environment. You are responsible for evaluating and operating each tool safely.
+
+"Open source" describes an entry's core repository license. It does not mean that model weights, hosted providers, API services, or separately licensed subdirectories share that license; affected entries identify those boundaries.
 
 ## Contributing
 
