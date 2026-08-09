@@ -1,6 +1,8 @@
 # Awesome AI Story, Learning Video & Creative Content Tools
 
-A curated list of open-source tools and agent skills for storytelling, motion comics, learning videos, and the visual or marketing work that supports them.
+A curated list of open-source tools and agent skills for storytelling, motion comics, learning videos, UGC, digital humans, and the visual or marketing work that supports them.
+
+The groups describe each project's primary creative capability. Many entries are complete applications or skill collections that work independently; others specialize in a task such as avatar animation or lip sync. The list does not imply a built-in integration between projects.
 
 ## Video Production
 
@@ -8,13 +10,13 @@ A curated list of open-source tools and agent skills for storytelling, motion co
 - [Jellyfish](https://github.com/Forget-C/Jellyfish) — Plan stories, characters, scenes, shots, and media assets in one production workspace.
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — Create AI-assisted faceless short videos from a topic or script, with narration, captions, music, and stock-media workflows.
 
-## Agentic Video & UGC Workflows
+## Agentic Video & UGC Tools
 
 - [ViMax](https://github.com/HKUDS/ViMax) — Orchestrate an idea, screenplay, or novel into a multi-scene video with storyboards, continuity tracking, and reference-image cameos. Requires configured LLM, image, and video providers.
 - [Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) — Agent-ready UGC and product-video workflow recipes. Runs through the external MuAPI CLI and its model providers, rather than as a local video model.
 - [OpenShorts](https://github.com/mutonby/openshorts) — Assemble AI-actor UGC videos from a product website, script, actor, voice, generated clips, B-roll, captions, and social-ready exports. The core app is MIT; its `cloud/` directory has a separate commercial license, and the workflow needs third-party APIs.
 
-## Digital Humans & UGC Building Blocks
+## Digital Humans, Avatar Animation & Lip Sync
 
 - [LiveTalking](https://github.com/lipku/LiveTalking) — Self-host a digital-human workflow with custom avatars, TTS, lip sync, and APIs for batch-script video recording.
 - [OpenTalking](https://github.com/datascale-ai/opentalking) — Compose interactive digital humans from local or remote avatar, speech, and LLM backends.
@@ -52,6 +54,8 @@ This repository is an informational index. Inclusion is not an endorsement, secu
 Before using a project, review its source code, license, dependencies, install scripts, network behavior, data handling, permissions, and release history. Pin versions and test in an isolated environment. You are responsible for evaluating and operating each tool safely.
 
 "Open source" describes an entry's core repository license. It does not mean that model weights, hosted providers, API services, or separately licensed subdirectories share that license; affected entries identify those boundaries.
+
+For a correction to a listing's source, license, ownership, or security status, read [SECURITY.md](SECURITY.md).
 
 ## Contributing
 
