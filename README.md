@@ -51,6 +51,7 @@ The groups describe each project's primary creative capability. Many entries are
 ## Design & Marketing for Creative Production
 
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) — Broad multi-agent skill library that includes marketing, content-production, research, and video-oriented workflows.
+- [Ideoy](https://ideoy.ai) - Remake this week's viral meme videos from one selfie (AI image-to-video, 9:16, freemium).
 - [Marketing Skills](https://github.com/coreyhaines31/marketingskills) — Agent skills for product positioning, copy, image direction, video briefs, launch planning, and related marketing work.
 - [Open Design](https://github.com/nexu-io/open-design) — Local-first agent design environment with product-image, presentation, and media workflows; its ecommerce workflow creates reference-faithful main, feature, and lifestyle image sets.
 
